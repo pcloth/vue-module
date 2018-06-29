@@ -20,12 +20,12 @@
   {{#unless_eq githubAccount ""}}
   "repository": {
     "type": "git",
-    "url": "git+http://git.strongsoft.net:6280/{{ githubAccount }}/{{ name }}.git"
+    "url": "git+https://github.com/{{ githubAccount }}/{{ name }}.git"
   },
   "bugs": {
-    "url": "http://git.strongsoft.net:6280/{{ githubAccount }}/{{ name }}/issues"
+    "url": "https://github.com/{{ githubAccount }}/{{ name }}/issues"
   },
-  "homepage": "http://git.strongsoft.net:6280/{{ githubAccount }}/{{ name }}#readme",
+  "homepage": "https://github.com/{{ githubAccount }}/{{ name }}",
   {{/unless_eq}}
   "dependencies": {
     {{#vux}}
