@@ -1,5 +1,10 @@
 # 一款基于vue-cli初始化的vue组件模板（也可以作为js的库的初始化模板。*不推荐用于单页应用的搭建模板*），使用webpack来编译及测试环境搭建
 
+
+## fork来自a798454550/vue-module
+> 因为记不住他的id，并且想去掉strongsoft的url前缀，并方便以后添加自己的私货。
+> 
+
 > Share Vue components!
 
 一个非常简单的[vue-cli]（https://github.com/vuejs/vue-cli）模板，可以用`.vue`组件编写和发布vue插件。
@@ -11,7 +16,7 @@
 
 ```
 npm i -g vue-cli   //安装一次即可
-vue init a798454550/vue-module components-name
+vue init pcloth/vue-module components-name
 ```
 components-name 为你的组件名称。
 
