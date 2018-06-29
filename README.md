@@ -21,10 +21,6 @@ vue init pcloth/vue-module components-name
 components-name 为你的组件名称。
 
 # 问题解释
-## 请选择适用范围？
-①通用（以@strongsoft作为前缀）
-
-②项目（自行定义名字，没有前缀）
 
 # 开发
 

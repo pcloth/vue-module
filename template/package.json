@@ -1,5 +1,5 @@
 {
-  "name": "{{#if_eq scope 'common'}}@strongsoft/{{/if_eq}}{{ name }}",
+  "name": "{{ name }}",
   "description": "{{ description }}",
   "version": "{{ version }}",
   "author": {

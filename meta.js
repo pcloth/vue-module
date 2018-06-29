@@ -29,16 +29,16 @@ module.exports = {
         'value': 'jsLibary'
       }]
     },
-    scope: {
-      type: "list",
-      message: "请选择适用范围",
-      default: 0,
-      choices: [{
-        "name": "项目（自行定义名字，没有前缀）",
-        "value": "project",
-        "short": "项目（自行定义名字，没有前缀）"
-      }]
-    },
+    // scope: {
+    //   type: "list",
+    //   message: "请选择适用范围",
+    //   default: 0,
+    //   choices: [{
+    //     "name": "项目（自行定义名字，没有前缀）",
+    //     "value": "project",
+    //     "short": "项目（自行定义名字，没有前缀）"
+    //   }]
+    // },
     name: {
       type: 'string',
       required: true,
